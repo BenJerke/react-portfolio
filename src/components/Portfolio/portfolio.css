@@ -1,0 +1,33 @@
+/* grid elements  */
+
+#left-col{
+    /* margin-left: 20%; */
+    padding-left: 20%;
+    background-color: antiquewhite;
+}
+
+
+
+#center-col{
+   
+    
+}
+
+#right-col{
+    /* margin-right: 20%; */
+    background-color: antiquewhite;
+}
+
+header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.prjcard{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+.container-fluid{
+
+}
+
