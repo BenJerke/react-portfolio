@@ -1,4 +1,6 @@
-/* grid elements  */
+h1{
+    color: white;
+}
 
 #left-col{
     /* margin-left: 20%; */
@@ -8,7 +10,7 @@
 
 
 #center-col{
-   
+    background-color: grey;
     
 }
 
@@ -27,6 +29,6 @@ header{
     margin-bottom: 20px;
 }
 .container-fluid{
-
+    background-color: grey;
 }
 
