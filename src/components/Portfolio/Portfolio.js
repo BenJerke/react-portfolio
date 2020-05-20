@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
 import {Redirect} from "react-router-dom";
-import Row  from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
-import Image from 'react-bootstrap/Image'
-import sbheader from "../../sbrheader.png"
+import Row  from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import Image from 'react-bootstrap/Image';
+import sbheader from "../../sbrheader.png";
+import the_boys from "../../theboys.png";
 import './portfolio.css'
 
 
@@ -56,7 +57,7 @@ class Portfolio extends React.Component {
                                 <br/>
                                 <br/>
                                 <Card.Text className="text-align-left">
-                                I made this tool to help myself and my fellow software testers who work on healthcare apps. <br/>
+                                I made this tool to help my fellow software testers who work on healthcare apps. <br/>
                                 Since I could never remember the format, I let the computer do it for me!
                                 </Card.Text>
                                 <Button variant="outline-primary" href="https://benjerke.github.io/MBI-Generator/">Try it out!</Button>
@@ -65,18 +66,18 @@ class Portfolio extends React.Component {
 
                         <Card className="text-center prjcard" id="superhero-battle-royale">
                             <Card.Body className="lowerborder bg-light">
-                                <Card.Title>Bootcamp Project 1: "Superhero Battle Royale"</Card.Title>
+                                <Card.Title>Bootcamp Project 2: "Interest Quest"</Card.Title>
                                 <br/>
-                                <Image src={sbheader}/>
+                                <Image src={the_boys}/>
                                 <br/>
                                 <br/>
                                 <Card.Text>
-                                This fun little website pits two superheroes against each other. <br/>
-                                Finally, a way to settle arguments between superfans!
+                                This is an unfinished fantasy game with a custom-built engine. <br/>
+                                It's about a man who must find treasure in a dangerous dungeon to pay off a loan.
                                 </Card.Text>
-                                <Button variant="outline-primary" href="https://danhauen.github.io/Project1/">Try it out!</Button>
+                                <Button variant="outline-primary" href="https://interest-adventure-game.herokuapp.com/">Try it out!</Button>
                             </Card.Body>
-                            <Card.Footer className="text-muted">Developed by Dan Hauen, Haillie Weintraub, Robert Forster and Ben Jerke</Card.Footer>
+                            <Card.Footer className="text-muted">Developed Robert Forster, Dan Hauen, and Ben Jerke</Card.Footer>
                         </Card>
 
                     </Col>
