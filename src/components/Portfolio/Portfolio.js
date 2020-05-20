@@ -84,7 +84,7 @@ class Portfolio extends React.Component {
 
                         <Card className="text-center prjcard" id="superhero-battle-royale">
                             <Card.Body className="lowerborder bg-light">
-                                <Card.Title>Bootcamp Homework Assigment: "It's Gifs!"</Card.Title>
+                                <Card.Title>Bootcamp Homework Assignment: "It's Gifs!"</Card.Title>
                                 <br/>
                                 <Image src={spongebob} fluid/>
                                 <br/>
